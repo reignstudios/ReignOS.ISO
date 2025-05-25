@@ -1,0 +1,7 @@
+# configs/reignos/airootfs/etc/os-release
+NAME="ReignOS"
+PRETTY_NAME="ReignOS"
+ID=reignos
+VERSION="x.x.x"
+ANSI_COLOR="1;32"
+HOME_URL="http://reign-studios.com/ReignOS"
