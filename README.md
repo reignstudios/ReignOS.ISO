@@ -1,3 +1,3 @@
-# ReignOS.ISO
+# About
 Core archiso files for building ReignOS images<br>
 [Main Repo](https://github.com/reignstudios/ReignOS)
