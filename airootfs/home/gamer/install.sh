@@ -46,5 +46,5 @@ fi
 
 # relaunch
 echo "Hit Ctrl+C if you don't want to relaunch installer..."
-sleep 3
+sleep 5
 /home/gamer/install.sh $@

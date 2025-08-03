@@ -146,7 +146,12 @@ xorg-server-xwayland
 wayland
 wayland-protocols
 wayland-utils
+xorg
+xorg-server
+xorg-xinit
 xorg-xev
+xf86-input-libinput
+xterm
 xbindkeys
 xorg-xinput
 xorg-xmodmap
