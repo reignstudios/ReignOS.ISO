@@ -25,7 +25,7 @@ mkarchiso -v . configs/reignos
 #chmod +x ./mkarchiso_ReignOS
 #./mkarchiso_ReignOS -v .
 
-echo "Mount share drive"
+#echo "Mount share drive"
 #mount -t vboxsf share /mnt/share
 
 echo "Ready to copy ISO"
