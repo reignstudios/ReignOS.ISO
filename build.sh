@@ -11,6 +11,7 @@ echo "Build repo"
 cd ~/ReignOS/airootfs/home/gamer/ReignOS
 git checkout dev
 cd ~/ReignOS/airootfs/home/gamer/ReignOS/Installer
+dotnet workload update
 dotnet clean
 dotnet publish -r linux-x64 -c Release
 
