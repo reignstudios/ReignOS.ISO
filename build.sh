@@ -20,7 +20,7 @@ cd ~/ReignOS
 rm -rf work/ out/
 pacman -Rns $(pacman -Qdtq) --noconfirm
 pacman -Sc --noconfirm
-#rm -rf /var/cache/pacman/pkg/*
+rm -rf /var/cache/pacman/pkg/*
 
 echo "Build ISO"
 mkarchiso -v . configs/reignos
