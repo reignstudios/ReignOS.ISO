@@ -17,10 +17,13 @@ dotnet publish -r linux-x64 -c Release
 
 echo "Cleaning build cache"
 cd ~/ReignOS
-rm -rf work/ out/
+rm -rf work/
+rm -rf out/
 pacman -Rns $(pacman -Qdtq) --noconfirm
 pacman -Sc --noconfirm
 rm -rf /var/cache/pacman/pkg/*
+rm -rf /root/.nuget/packages/*
+rm -rf /.local/share/NuGet/*
 
 echo "Build ISO"
 mkarchiso -v . configs/reignos
