@@ -133,7 +133,7 @@ ntfs-3g
 git
 git-lfs
 gcc
-dotnet-sdk-8.0
+dotnet-sdk
 weston
 cage
 labwc
