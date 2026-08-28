@@ -25,7 +25,7 @@ done
 
 # config installer
 echo "Starting ReignOS.Installer..."
-cd /home/gamer/ReignOS/Installer/ReignOS.Installer/bin/Release/net8.0/linux-x64/publish/
+cd /home/gamer/ReignOS/Installer/ReignOS.Installer/bin/Release/net10.0/linux-x64/publish/
 chmod +x ./ReignOS.Installer
 
 if [ "$USE_WESTON" = "true" ]; then
