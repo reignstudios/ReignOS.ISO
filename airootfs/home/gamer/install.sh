@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Giving mesa a few seconds..."
-sleep 5
+sleep 10
 
 # args
 USE_WESTON=false
