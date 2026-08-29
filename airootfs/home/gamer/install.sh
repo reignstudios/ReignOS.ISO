@@ -66,3 +66,6 @@ fi
 if [ "$USE_X11" = "true" ]; then
  startx
 fi
+
+# failed
+echo "Failed to launch!!! (invoke ./install.sh to try again)"
