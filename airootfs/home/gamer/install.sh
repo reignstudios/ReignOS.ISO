@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Giving mesa a few seconds..."
-sleep 10
+sleep 1
 
 # args
 USE_WESTON=false
@@ -37,6 +36,10 @@ cd /home/gamer/ReignOS/Installer/ReignOS.Installer/bin/Release/net10.0/linux-x64
 chmod +x ./ReignOS.Installer
 
 if [ "$USE_WESTON" = "true" ]; then
+ weston --shell=kiosk-shell.so --xwayland -- ./ReignOS.Installer -weston
+
+ # just try again (something goofed)
+ sleep 1
  weston --shell=kiosk-shell.so --xwayland -- ./ReignOS.Installer -weston
 
  # relaunch
